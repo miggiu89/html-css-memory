@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family:'Hachi Maru Pop', sans-serif;
+  background-color: #00bcd4;
+}
+
+header {
+  height: 100px;
+  text-align: center;
+  color: white;
+  font-size: xx-large;
+}
+
+.container{
+  margin: 100px 350px;
+  width: 700px;
+  height: 700px;
+  border: 1px solid black;
+}
+
+.row{
+  height: 33%;
+  margin-bottom: 2px;
+  border:1px solid black;
+  display: flex;
+}
+
+.face {
+  position: relative;
+  height: 200px;
+  width: 120px;
+  margin: 0 auto;
+  margin-top: 10px;
+  border-radius: 8px;
+  border:1px solid black;
+}
+
+footer{
+  color: black;
+  text-align: center;
+}
